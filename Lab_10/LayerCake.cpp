@@ -15,5 +15,5 @@ LayerCake::~LayerCake()
 
 string LayerCake::ToString()
 {
-	return "LayerCake";
+	return to_string(layers) + "-layer " + flavor + " cake with " + frosting + " frosting";
 }

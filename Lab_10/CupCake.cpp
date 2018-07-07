@@ -14,5 +14,5 @@ CupCake::~CupCake()
 
 string CupCake::ToString()
 {
-	return "CupCake";
+	return flavor + " cupcake with " + frosting + " frosting and " + sprinklesColor + " sprinkles";
 }
