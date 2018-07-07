@@ -11,6 +11,7 @@ class Cake : public BakedGood
 		virtual string ToString() = 0;
 	protected:
 		string flavor;
+		string frosting;
 };
 
 #endif

@@ -9,6 +9,8 @@ class LayerCake : public Cake
 		LayerCake();
 		~LayerCake();
 		string ToString();
+	private:
+		int layers;
 };
 
 #endif

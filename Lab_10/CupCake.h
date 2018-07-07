@@ -9,6 +9,8 @@ class CupCake : public Cake
 		CupCake();
 		~CupCake();
 		string ToString();
+	private:
+		string sprinkleColor;
 };
 
 #endif
