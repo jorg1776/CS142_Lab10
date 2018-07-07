@@ -8,6 +8,7 @@ class CupCake : public Cake
 	public:
 		CupCake();
 		~CupCake();
+		virtual void ToString();
 };
 
 #endif

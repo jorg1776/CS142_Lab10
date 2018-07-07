@@ -8,6 +8,7 @@ class LayerCake : public Cake
 	public:
 		LayerCake();
 		~LayerCake();
+		virtual void ToString();
 };
 
 #endif

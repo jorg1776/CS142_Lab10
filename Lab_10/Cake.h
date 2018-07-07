@@ -8,6 +8,7 @@ class Cake : public BakedGood
 	public:
 		Cake();
 		~Cake();
+		virtual void ToString() = 0;
 };
 
 #endif

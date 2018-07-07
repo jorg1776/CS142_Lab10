@@ -8,6 +8,7 @@ class Bread : public BakedGood
 	public:
 		Bread();
 		~Bread();
+		virtual void ToString();
 };
 
 #endif
