@@ -6,11 +6,11 @@
 class CupCake : public Cake
 {
 	public:
-		CupCake();
+		CupCake(string flavor = "Na", string frosting = "no", string sprinklesColor = "no");
 		~CupCake();
 		string ToString();
 	private:
-		string sprinkleColor;
+		string sprinklesColor;
 };
 
 #endif

@@ -2,10 +2,12 @@
 #include "LayerCake.h"
 
 
-LayerCake::LayerCake()
+LayerCake::LayerCake(string flavor, string frosting, int numLayers)
 {
+	this->flavor = flavor;
+	this->frosting = frosting;
+	this->layers = numLayers;
 }
-
 
 LayerCake::~LayerCake()
 {

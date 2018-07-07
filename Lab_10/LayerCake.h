@@ -6,7 +6,7 @@
 class LayerCake : public Cake
 {
 	public:
-		LayerCake();
+		LayerCake(string flavor = "Na", string frosting = "no", int numLayers = 1);
 		~LayerCake();
 		string ToString();
 	private:
