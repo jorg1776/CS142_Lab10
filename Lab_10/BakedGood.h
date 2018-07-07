@@ -10,7 +10,6 @@ class BakedGood
 		BakedGood();
 		~BakedGood();
 		virtual string ToString() = 0;
-		//virtual double GetDiscountedPrice(int);
 	protected:
 		double price;
 };

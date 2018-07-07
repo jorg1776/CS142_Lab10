@@ -2,8 +2,6 @@
 #define BREAD_H
 
 #include "BakedGood.h"
-#include <string>
-using namespace std;
 
 class Bread : public BakedGood
 {
