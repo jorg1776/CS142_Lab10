@@ -10,3 +10,8 @@ LayerCake::LayerCake()
 LayerCake::~LayerCake()
 {
 }
+
+string LayerCake::ToString()
+{
+	return "LayerCake";
+}

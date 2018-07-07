@@ -147,11 +147,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BakedGood.h" />
+    <ClInclude Include="Bread.h" />
+    <ClInclude Include="Cake.h" />
+    <ClInclude Include="CupCake.h" />
+    <ClInclude Include="LayerCake.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lab_10.cpp" />
+    <ClCompile Include="BakedGood.cpp" />
+    <ClCompile Include="Bread.cpp" />
+    <ClCompile Include="Cake.cpp" />
+    <ClCompile Include="CupCake.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="LayerCake.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

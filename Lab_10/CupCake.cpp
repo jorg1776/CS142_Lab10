@@ -10,3 +10,8 @@ CupCake::CupCake()
 CupCake::~CupCake()
 {
 }
+
+string CupCake::ToString()
+{
+	return "CupCake";
+}
