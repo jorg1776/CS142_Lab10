@@ -17,5 +17,5 @@ CupCake::~CupCake()
 
 string CupCake::ToString()
 {
-	return flavor + " cupcake with " + frosting + " frosting and " + sprinklesColor + " sprinkles";
+	return flavor + " cupcake with " + frosting + " frosting and " + sprinklesColor + " sprinkles " + BakedGood::ToString();
 }

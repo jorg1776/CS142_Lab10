@@ -16,5 +16,5 @@ string BakedGood::ToString()
 {
 	ostringstream priceAsString;
 	priceAsString << setprecision(2) << fixed << price; //sets price precision to two decimal places
-	return " ($" + priceAsString.str() + ")";
+	return "($" + priceAsString.str() + ")";
 }

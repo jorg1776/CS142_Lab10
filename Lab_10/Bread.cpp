@@ -11,4 +11,4 @@ Bread::~Bread()
 {
 }
 
-string Bread::ToString() { return variety + " Bread"; }
+string Bread::ToString() { return variety + " Bread" + BakedGood::ToString(); }
