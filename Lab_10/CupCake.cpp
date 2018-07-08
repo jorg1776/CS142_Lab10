@@ -6,6 +6,9 @@ CupCake::CupCake(string flavor, string frosting, string sprinklesColor)
 	this->flavor = flavor;
 	this->frosting = frosting;
 	this->sprinklesColor = sprinklesColor;
+	price = 1.95;
+	if (frosting == "cream-cheese")
+		price += 0.20;
 }
 
 CupCake::~CupCake()
