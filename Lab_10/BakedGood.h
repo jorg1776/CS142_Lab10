@@ -9,9 +9,9 @@ class BakedGood
 	public:
 		BakedGood();
 		~BakedGood();
-		virtual string ToString() = 0;
+		virtual string ToString();
 	protected:
-		double price;
+		float price;
 };
 
 #endif
