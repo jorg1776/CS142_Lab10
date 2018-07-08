@@ -9,14 +9,17 @@ LayerCake::LayerCake(string flavor, string frosting, int numLayers)
 	this->layers = numLayers;
 	price = 9.00;
 
+	const float costOfCreamCheese = 1.00;
 	if (frosting == "cream-cheese")
-		price += 0.20;
+		price += costOfCreamCheese * numLayers;
 
 	if (numLayers > 1)
 	{
+		const float costOfLayer = 3.00;
+
 		for (int i = 2; i <= numLayers; i++)
 		{
-			price += 3.00;
+			price += costOfLayer;
 		}
 	}
 }

@@ -7,8 +7,11 @@ CupCake::CupCake(string flavor, string frosting, string sprinklesColor)
 	this->frosting = frosting;
 	this->sprinklesColor = sprinklesColor;
 	price = 1.95;
+
+	const float costOfCreamCheese = 0.20;
+
 	if (frosting == "cream-cheese")
-		price += 0.20;
+		price += costOfCreamCheese;
 }
 
 CupCake::~CupCake()
