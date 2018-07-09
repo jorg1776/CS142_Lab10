@@ -11,7 +11,7 @@ class BakedGood
 		~BakedGood();
 		virtual string ToString();
 		float GetPrice();
-		virtual float GetDiscountedPrice() = 0;
+		virtual float GetDiscountedPrice(int quantity = 1) = 0;
 		string GetType();
 	protected:
 		float price;
