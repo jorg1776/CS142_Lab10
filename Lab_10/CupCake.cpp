@@ -23,3 +23,17 @@ string CupCake::ToString()
 {
 	return flavor + " cupcake with " + frosting + " frosting and " + sprinklesColor + " sprinkles " + BakedGood::ToString();
 }
+
+float CupCake::GetDiscountedPrice(int quantity)
+{
+	float discount;
+
+	if (quantity >= 4)
+		discount = 0.40;
+	else if (quantity >= 2)
+		discount = 0.30;
+	else
+		discount = 0.0;
+
+	return price - discount;
+}

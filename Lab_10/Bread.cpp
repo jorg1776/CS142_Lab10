@@ -13,3 +13,11 @@ Bread::~Bread()
 }
 
 string Bread::ToString() { return variety + " Bread " + BakedGood::ToString(); }
+
+float Bread::GetDiscountedPrice(int itemNumber)
+{
+	if (itemNumber % 3 == 0)
+		return 0.0;
+	else
+		return price;
+}

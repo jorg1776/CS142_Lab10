@@ -34,3 +34,15 @@ string LayerCake::ToString()
 {
 	return to_string(layers) + "-layer " + flavor + " cake with " + frosting + " frosting " + BakedGood::ToString();
 }
+
+float LayerCake::GetDiscountedPrice(int quantity)
+{
+	float discount;
+
+	if (quantity >= 3)
+		discount = 2.00;
+	else
+		discount = 0;
+
+	return price - discount;
+}
