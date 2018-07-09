@@ -10,6 +10,7 @@ class BakedGood
 		BakedGood();
 		~BakedGood();
 		virtual string ToString();
+		float GetPrice();
 	protected:
 		float price;
 };

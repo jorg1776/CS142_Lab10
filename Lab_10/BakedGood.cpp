@@ -18,3 +18,5 @@ string BakedGood::ToString()
 	priceAsString << setprecision(2) << fixed << price; //sets price precision to two decimal places
 	return "($" + priceAsString.str() + ")";
 }
+
+float BakedGood::GetPrice() { return price; }
