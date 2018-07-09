@@ -9,9 +9,10 @@ CupCake::CupCake(string flavor, string frosting, string sprinklesColor)
 	price = 1.95;
 
 	const float costOfCreamCheese = 0.20;
-
 	if (frosting == "cream-cheese")
 		price += costOfCreamCheese;
+
+	goodType = "Cupcake";
 }
 
 CupCake::~CupCake()

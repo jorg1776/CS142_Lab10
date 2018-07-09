@@ -5,6 +5,7 @@ Bread::Bread(string variety)
 {
 	this->variety = variety;
 	price = 4.50;
+	goodType = "Bread";
 }
 
 Bread::~Bread()

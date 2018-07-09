@@ -22,6 +22,8 @@ LayerCake::LayerCake(string flavor, string frosting, int numLayers)
 			price += costOfLayer;
 		}
 	}
+
+	goodType = "Layer-cake";
 }
 
 LayerCake::~LayerCake()

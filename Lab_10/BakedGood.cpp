@@ -20,3 +20,5 @@ string BakedGood::ToString()
 }
 
 float BakedGood::GetPrice() { return price; }
+
+string BakedGood::GetType() { return goodType; }
