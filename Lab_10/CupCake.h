@@ -9,6 +9,7 @@ class CupCake : public Cake
 		CupCake(string flavor = "Na", string frosting = "no", string sprinklesColor = "no");
 		~CupCake();
 		string ToString();
+		virtual float GetDiscountedPrice();
 	private:
 		string sprinklesColor;
 };

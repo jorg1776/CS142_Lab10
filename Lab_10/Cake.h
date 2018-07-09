@@ -9,6 +9,7 @@ class Cake : public BakedGood
 		Cake();
 		~Cake();
 		virtual string ToString() = 0;
+		virtual float GetDiscountedPrice() = 0;
 	protected:
 		string flavor;
 		string frosting;
