@@ -8,7 +8,7 @@ class Bread : public BakedGood
 	public:
 		Bread(string variety = "Na");
 		~Bread();
-		string ToString();
+		virtual string ToString();
 		virtual float GetDiscountedPrice();
 	private:
 		string variety;
