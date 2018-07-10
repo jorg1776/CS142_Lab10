@@ -12,6 +12,7 @@ class Bread : public BakedGood
 		virtual float GetDiscountedPrice(int itemNumber = 1);
 	private:
 		string variety;
+		const float BREAD_PRICE = 4.50;
 };
 
 #endif

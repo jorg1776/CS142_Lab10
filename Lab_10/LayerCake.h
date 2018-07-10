@@ -12,6 +12,9 @@ class LayerCake : public Cake
 		virtual float GetDiscountedPrice(int quantity = 1);
 	private:
 		int layers;
+		const float LAYERCAKE_PRICE = 9.00;
+		const float CREAMCHEESE_PRICE = 1.00;
+		const float EXTRA_LAYER_PRICE = 3.00;
 };
 
 #endif

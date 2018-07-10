@@ -6,11 +6,10 @@ CupCake::CupCake(string flavor, string frosting, string sprinklesColor)
 	this->flavor = flavor;
 	this->frosting = frosting;
 	this->sprinklesColor = sprinklesColor;
-	price = 1.95;
+	price = CUPCAKE_PRICE;
 
-	const float costOfCreamCheese = 0.20;
 	if (frosting == "cream-cheese")
-		price += costOfCreamCheese;
+		price += COST_OF_CREAMCHEESE;
 
 	goodType = "Cupcake";
 }
@@ -26,12 +25,14 @@ string CupCake::ToString()
 
 float CupCake::GetDiscountedPrice(int quantity)
 {
+	const float FOUR_OR_MORE_DISCOUNT = 0.40;
+	const float TWO_OR_MORE_DISCOUNT = 0.30;
 	float discount;
 
 	if (quantity >= 4)
-		discount = 0.40;
+		discount = FOUR_OR_MORE_DISCOUNT;
 	else if (quantity >= 2)
-		discount = 0.30;
+		discount = TWO_OR_MORE_DISCOUNT;
 	else
 		discount = 0.0;
 
